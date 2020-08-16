@@ -19,6 +19,9 @@ You can view the data exploration files here:
 - [exploration_template.html](exploration_template.html)
 
 ## Document your Story
+
+![Covid-19 Dataset](plot.png)
+
 - There's 13 Saudi regions, in addition to the Total column which makes 14 values. The 3 regions with the highest number of values in the dataset are Riyadh, Eastern Region and Mecca. 
 - There's 5 indicators, Starting with Cases, Recoveries, Active cases, Mortalities and lastly Critical cases, the value counts of the indicators are in this order.This seems to be a good indication of Recovery rate being high, and Critical cases being relatively low in the country.
 - Regarding the cities in the Mecca region, as of the 5th of August, Jeddah has the most Active cases of Covid-19, with 3675 cases. Mecca is second and has 1584 cases, Taif has 872. Hadda with the least active cases only has 1 case.
