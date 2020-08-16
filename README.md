@@ -9,7 +9,7 @@ This project is divided into two major parts.
 ## Choose your Dataset
 The dataset I've chosen is about Saudi Arabia's Covid-19 situation and can be found in the [KAPSARC Website](https://datasource.kapsarc.org/explore/dataset/saudi-arabia-coronavirus-disease-covid-19-situation/export/?sort=-daily_accumulative&disjunctive.daily_cumulative&disjunctive.daily_accumulative=&dataChart=%3D&disjunctive.indicator&disjunctive.event&disjunctive.city&disjunctive.region). The data consisted of approximately 77,987 rows. The attributes included the Daily/Cumulative, Indicator, Date, Event, Region,City and most importantly number of Cases. Six data points were removed from the analysis due to missing information.
 
-![Covid-19 Dataset][dataset.png]
+![Covid-19 Dataset](dataset.png)
 
 ## Explore Your Data
 In this investigation, I wanted to look at how the Covid-19 situation has affected Saudi Arabia.I want to know which regions or cities have been affected the most, in addition to if any events helped in reducing the spread like for example starting or lifting curfews in certain regions or country wide.
