@@ -19,8 +19,7 @@ You can view the data exploration files here:
 - [exploration_template.html](exploration_template.html)
 
 ## Document your Story
-
-![Covid-19 Dataset](plot.png)
+<img src="plot.png" width="1700" height="600" />
 
 - There's 13 Saudi regions, in addition to the Total column which makes 14 values. The 3 regions with the highest number of values in the dataset are Riyadh, Eastern Region and Mecca. 
 - There's 5 indicators, Starting with Cases, Recoveries, Active cases, Mortalities and lastly Critical cases, the value counts of the indicators are in this order.This seems to be a good indication of Recovery rate being high, and Critical cases being relatively low in the country.
