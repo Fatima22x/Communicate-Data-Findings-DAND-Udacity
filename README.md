@@ -9,7 +9,7 @@ This project is divided into two major parts.
 ## Choose your Dataset
 The dataset I've chosen is about Saudi Arabia's Covid-19 situation and can be found in the [KAPSARC Website](https://datasource.kapsarc.org/explore/dataset/saudi-arabia-coronavirus-disease-covid-19-situation/export/?sort=-daily_accumulative&disjunctive.daily_cumulative&disjunctive.daily_accumulative=&dataChart=%3D&disjunctive.indicator&disjunctive.event&disjunctive.city&disjunctive.region). The data consisted of approximately 77,987 rows. The attributes included the Daily/Cumulative, Indicator, Date, Event, Region,City and most importantly number of Cases. Six data points were removed from the analysis due to missing information.
 
-![Covid-19 Dataset][dataset]
+![Covid-19 Dataset](dataset.png)
 
 ## Explore Your Data
 In this investigation, I wanted to look at how the Covid-19 situation has affected Saudi Arabia.I want to know which regions or cities have been affected the most, in addition to if any events helped in reducing the spread like for example starting or lifting curfews in certain regions or country wide.
@@ -19,8 +19,11 @@ You can view the data exploration files here:
 - [exploration_template.html](exploration_template.html)
 
 ## Document your Story
+
+![Covid-19 Dataset](plot.png)
+
 - There's 13 Saudi regions, in addition to the Total column which makes 14 values. The 3 regions with the highest number of values in the dataset are Riyadh, Eastern Region and Mecca. 
-- There's 5 indicators, Starting with Cases, Recoveries, Active cases, Mortalities and lastly Critical cases. This seems to be a good indication of Recovery rate being high, and Critical cases being relatively low in the country.
+- There's 5 indicators, Starting with Cases, Recoveries, Active cases, Mortalities and lastly Critical cases, the value counts of the indicators are in this order.This seems to be a good indication of Recovery rate being high, and Critical cases being relatively low in the country.
 - Regarding the cities in the Mecca region, as of the 5th of August, Jeddah has the most Active cases of Covid-19, with 3675 cases. Mecca is second and has 1584 cases, Taif has 872. Hadda with the least active cases only has 1 case.
 - The cumulative number of cases of Covid-19 up until the latest date in the dataset, which is the 5th of August, the regions in the top 3 spots are Mecca, Eastern Region and Riyadh, although their order differs. Mecca and Eastern Region alone take up half the pie graph, meaning that half the cases in the country up until the 5th of August are in those 2 regions.
 - The total number of cases for each indicator, from the start of the first case of Covid-19 in the 2nd of March 2020, up until the latest date in the dataset which is the 5th of August. Recovery rates have been higher than the active cases since the 17th of May 2020. We can also see that Mortalities and Critical cases have been relatively low. 
