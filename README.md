@@ -18,9 +18,9 @@ You can view the data exploration files here:
 - [exploration_template.ipynb](exploration_template.ipynb)
 - [exploration_template.html](exploration_template.html)
 
-## Document your Story
+(You might have to download Plotly to view them using  `pip install plotly==4.9.0` or `conda install -c plotly plotly=4.9.0`)
 
-![Covid-19 Dataset](plot.png)
+## Document your Story
 
 - There's 13 Saudi regions, in addition to the Total column which makes 14 values. The 3 regions with the highest number of values in the dataset are Riyadh, Eastern Region and Mecca. 
 - There's 5 indicators, Starting with Cases, Recoveries, Active cases, Mortalities and lastly Critical cases, the value counts of the indicators are in this order.This seems to be a good indication of Recovery rate being high, and Critical cases being relatively low in the country.
@@ -29,6 +29,9 @@ You can view the data exploration files here:
 - The total number of cases for each indicator, from the start of the first case of Covid-19 in the 2nd of March 2020, up until the latest date in the dataset which is the 5th of August. Recovery rates have been higher than the active cases since the 17th of May 2020. We can also see that Mortalities and Critical cases have been relatively low. 
 - In the dataset, there was an Event column indicating if any event happened like for example the start or end of curfew for some regions or cities. I plotted this with the number of daily cases to see if any event had an impact in the number of daily cases. I noticed a spike in cases after the partial lifting of curfew in all cities except Makkah and after curfew lifted in all regions. The cases have been gradually decreasing since the 7th of July.
 - I used a bubble chart for July 2020's cases of Covid-19. The highest recovery count for one day was on the 13th of July 2020 with 7718 recoveries made in one day.
+
+
+<img src="plot.png" width="1700" height="600" />
 
 ## Create your Slide Deck
 I created my slide deck using the command `jupyter nbconvert slide_deck_template.ipynb --to slides --template output-toggle.tpl
