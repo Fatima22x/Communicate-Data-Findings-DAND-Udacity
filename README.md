@@ -18,6 +18,8 @@ You can view the data exploration files here:
 - [exploration_template.ipynb](exploration_template.ipynb)
 - [exploration_template.html](exploration_template.html)
 
+(You might have to download Plotly to view them using  `pip install plotly==4.9.0` or `conda install -c plotly plotly=4.9.0`)
+
 ## Document your Story
 
 - There's 13 Saudi regions, in addition to the Total column which makes 14 values. The 3 regions with the highest number of values in the dataset are Riyadh, Eastern Region and Mecca. 
